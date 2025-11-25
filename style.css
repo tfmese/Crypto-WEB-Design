@@ -395,7 +395,9 @@ textarea:focus {
         text-transform: capitalize; }
         .header-area .cryptos-main-menu .classy-navbar .classynav ul li a:hover, .header-area .cryptos-main-menu .classy-navbar .classynav ul li a:focus {
           color: #ffaf02; }
-    .header-area .cryptos-main-menu .classynav ul li .dropdown li a,
+.header-area .cryptos-main-menu .classynav ul li .dropdown li a{
+    width: 240px !important;
+}
     .header-area .cryptos-main-menu .classynav ul li .megamenu li a {
       font-size: 14px; }
     .header-area .cryptos-main-menu .classynav .header-newsletter-form {
@@ -442,7 +444,7 @@ textarea:focus {
           cursor: pointer;
           border-bottom: 2px solid #ffaf02;
           -webkit-transition-duration: 500ms;
-          transition-duration: 500ms; }
+          transition-duration: 800ms; }
           .header-area .cryptos-main-menu .classynav .header-newsletter-form form button:hover {
             background-color: #292929;
             color: #ffaf02; }
@@ -458,7 +460,7 @@ textarea:focus {
   color: #ffffff;
   top: 50%;
   margin-top: -15px;
-  left: 5%;
+  left: 2%;
   position: absolute;
   z-index: 10;
   text-align: center;
@@ -526,7 +528,7 @@ textarea:focus {
     color: #292929;
     top: 50%;
     margin-top: -20px;
-    left: 5%;
+    left: 2%;
     position: absolute;
     z-index: 10;
     text-align: center;
@@ -551,7 +553,7 @@ textarea:focus {
       color: #ffaf02; }
   .hero-slides .owl-next {
     left: auto;
-    right: 5%; }
+    right: 2%; }
   .hero-slides:hover .owl-prev, .hero-slides:hover .owl-next {
     opacity: 1;
     visibility: visible; }
